@@ -2,6 +2,23 @@ import { ExternalLink, Github, Zap, Globe, Smartphone, Database, Brain, Shopping
 import { Button } from "@/components/ui/button"
 
 const projects = [
+    {
+    title: "Talent Flow",
+    description: "TalentFlow is a front-end React hiring platform (deployed on Vercel) that demonstrates routing, drag-and-drop, local persistence, mock APIs, and scalable state & form handling.",
+    tech: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "MirageJS",
+      "IndexedDB",
+      "Git",
+      "GitHub"
+    ],
+    icon: Globe,
+    gradient: "from-electric-blue to-neon-cyan",
+    github: "https://github.com/Shanyu-pilli/TalentFlow-Frontend",
+    demo: "https://talent-flow-blue.vercel.app/"
+  },
   {
     title: "Parkinson disease prediction using Advance Deep Learning Models",
     description: "Deep learning-based system leveraging Siamese BiLSTM networks on gait signals (vGRF) for early and accurate Parkinson's disease prediction, outperforming traditional ML methods.",
